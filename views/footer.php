@@ -1,111 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tiendas MOA</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="assets/css/style.css">
-
-</head>
-
-<body>
-
-
-    <nav id="navHome" class="navbar navbar-expand-lg navbar-light sticky-top">
-        <div class="container-fluid max-width-940">
-            <a class="navbar-brand" href="/index.php">
-                <img src="src/logo/logo.svg" width="250" height="100" alt="">
-            </a>
-            <button class="navbar-toggler togglerNoBorder" type="button" data-toggle="collapse"
-                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse backgroundWhite" id="navbarNavDropdown">
-
-                <ul class="navbar-nav ml-auto navbar-center">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/index.php">Inicio<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/nosotros.php">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/products.php">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/sedes.php">Nuestras Tiendas</a>
-                    </li>
-                </ul>
-
-                <ul class="navbar-nav ml-auto">
-
-                    <li class="nav-item-rrss">
-                        <div class="col-xs-12 col-sm-12 col-md-12 text-center padding-lados">
-                            <h6 class="redes">SIguenos en <br> nuestras redes</h6>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-
-    <section class="section-padding" style="background: #dededd;">
-        <div class="col-12">
-            <div class="section-title-header">
-                <h1 class="section-title" style="color: #c55c2f;">TIENDA MOA <br />ZONA INDUSTRIAL </h1>
-            </div>
-        </div>
-
-        <center>
-            <div class="container">
-
-                <div class="row mar">
-
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 row">
-
-                            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=santa%20clara%2024&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
-                    </div>
-
-                </div>
-            </div>
-        </center>
-
-    </section>
-
-
-    <section class="section-padding" style="background: #dededd;">
-            <div class="col-12">
-                <div class="section-title-header">
-                    <h1 class="section-title" style="color: #c55c2f;">TIENDA MOA <br />EL ROBLE </h1>
-                </div>
-            </div>
-    
-            <center>
-                <div class="container">
-    
-                    <div class="row mar">
-    
-                        <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 row">
-    
-                                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=santa%20clara%2024&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
-                        </div>
-    
-                    </div>
-                </div>
-            </center>
-    
-        </section>
     <!-- contact -->
     <section id="contact">
         <div class="col-xs-12 col-sm-12 col-md-12">
@@ -121,25 +13,16 @@
             <div class="row text-center text-xs-center text-sm-left text-md-left">
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <form class="gform pure-form pure-form-stacked" method="POST"
-                        action="https://script.google.com/macros/s/AKfycbyLf3ALKv1qAPzue2_xp30lXHIKApKyvb8-SZUthmHet_YFejBS/exec">
+                        action="">
                         <!-- change the form action to your script url -->
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="col-md-12 form-line">
                                     <div class="form-group">
-                                        <label for="name">Nombres:</label>
+                                        <label for="name">Nombres y Apellidos:</label>
                                         <input type="text" class="form-control form-control-name" id="name"
-                                            name="Nombres" placeholder=" Ingrese sus nombres. " pattern="[A-Za-zÑñ ]+"
+                                            name="Nombres y Apellidos:" placeholder=" Ingrese sus nombres. " pattern="[A-Za-zÑñ ]+"
                                             required data-error="Por favor ingrese su nombre">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12 form-line">
-                                    <div class="form-group">
-                                        <label for="apellidos">Apellidos:</label>
-                                        <input type="apellidos" class="form-control" id="apellidos" name="Apellidos"
-                                            placeholder="Ingrese sus apellidos." required
-                                            data-error="Por favor ingrese su E-mail">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -152,7 +35,19 @@
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
+
+                                <div class="col-md-12 form-line">
+                                    <div class="form-group">
+                                        <label for="apellidos">Telefono:</label>
+                                        <input type="apellidos" class="form-control" id="apellidos" name="Telefono"
+                                            placeholder="Ingrese su numero de telefono." required
+                                            data-error="Por favor ingrese su E-mail">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
                             </div>
+                            
 
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -188,7 +83,6 @@
         </div>
     </section>
     <!-- ./contact -->
-
 
 
     <!-- Footer -->
@@ -246,8 +140,6 @@
                     <a href=""><i class="fab fa-facebook-f"></i></a>
                 </div>
 
-
-
             </div>
 
             <div class="row">
@@ -272,6 +164,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-</body>
 
+    <script src="<?php echo RUTA;?>/assets/js/jquery-3.4.1.min.js"></script>
+    <script src="<?php echo RUTA;?>/assets/js/main.js"></script>
+    <script src="<?php echo RUTA;?>/assets/js/jquery.instagramFeed.min.js"></script>
+
+    
 </html>

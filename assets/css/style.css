@@ -1,8 +1,14 @@
 .nav-item {
-    padding: 2rem;
-}
-.nav-item {
     padding: 1rem;
+}
+
+a:hover {
+    /* color: #0056b3; */
+    text-decoration: none;
+}
+
+.nav-item a{
+    font-weight: bold;
 }
 
 .section-padding {
@@ -22,7 +28,7 @@
 }
 
 .padding-lados{
-    padding: 0px 8rem;
+    padding: 0px 10rem;
 }
 
 .section-padding-productos{
@@ -51,12 +57,78 @@
     transform: translatex(-50%);
 }
 
+.map iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+    height: 70%;
+}
+
 @media(max-width: 991px){
     .navbar-nav.navbar-center {
         position: relative;
         left: 0%;
         transform: translatex(0%);
     }
+    .padding-lados{
+        padding: 0;
+    }
+
+    .map iframe {
+        height: 100%;
+    }
+    
+}
+
+.card-producto{
+    transition: all 200ms;
+    width: 250px;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 6px;
+    transition: all 200ms ease 0s;
+}
+
+.card-producto img{
+    width: 220px;
+    height: auto;
+}
+
+.card-marca img{
+    max-width: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition:-webkit-filter 1s;
+    -o-transition:filter 1s;
+    transition:filter 1s;
+    transition:filter 1s, -webkit-filter 1s;
+    -webkit-transition:-webkit-filter 1s;
+    /* Aumentamos la anchura y altura durante 2 segundos */
+    transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+}
+.card-marca:hover img{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-transform: grayscale(0); 
+    -o-transform: grayscale(0); 
+}
+
+
+.btn-modal{
+    color: black;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.card-producto:hover a p{
+    border-bottom: 2px solid #c55c2f;
+    width: 45%;
+    transition: all 200ms;
 }
 
 .sticky-top {
@@ -100,29 +172,56 @@
     border-bottom: 2px solid #c55c2f; 
 }
 
+
+
 .products{
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .products a{
     color: #fff;
     font-size: 22px;
     font-weight: 300;
+    font-weight: bolder;
+    text-transform: uppercase;
     text-transform: uppercase;
     transition: all 200ms;
 }
 
 .products a:hover{
     color: #fff;
-    border-bottom: 2px solid #c55c2f; 
+    border-bottom: 5px solid #c55c2f; 
+    border-bottom-width: 10%;
+    text-decoration: none;
+}
+
+.products-less{
+    padding: 0.9rem;
+}
+
+.products-less .active{
+    border-bottom: 5px solid #c55c2f; 
+}
+
+.products-less a{
+    color: #fff;
+    font-size: 22px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    transition: all 200ms;
+}
+
+.products-less a:hover{
+    color: #fff;
+    border-bottom: 5px solid #c55c2f; 
     border-bottom-width: 10%;
     text-decoration: none;
 }
 
 .pro{
-    width: 45rem;
+    width: 40rem;
     position: absolute;
-    transform: translatey(-13rem) translateX(-4rem);
+    transform: translatey(-10rem) translateX(0rem);
 }
 
 @media(max-width:1300px){
@@ -323,7 +422,6 @@ section {
 }
 
 .rrss{
-    float: left;
     color: #3b5998;
     
 }
@@ -332,7 +430,8 @@ section {
 .redes{
     font-size: 12px;
     color: white;
-    margin: 0;
+    margin: -5px;
+    font-weight: bold;
 }
 
 .text-center a i{
@@ -352,4 +451,74 @@ section {
 
 .nosotros{
     padding: 2rem;
+}
+
+
+/* -- Paginacion -- */
+
+.paginacion{
+    margin-bottom: 30px;
+}
+
+.paginacion ul{
+    list-style: none;
+    text-align: center;
+}
+
+.paginacion ul li{
+    display: inline-block;
+    margin: 0 5px;
+    color: #fff;
+}
+
+.paginacion ul li a{
+    display: block;
+    padding: 10px 20px;
+    background: #595959;
+    color: #fff;
+}
+
+.paginacion ul li a:hover{
+    background: linear-gradient(to right, #CA5C2E, #2c2d5c);
+    text-decoration: none;
+}
+
+.paginacion ul .active{
+    background: linear-gradient(to right, #CA5C2E, #2c2d5c);
+    padding: 10px 20px;
+}
+
+.paginacion ul .disable{
+    background: #a8a8a8;
+    padding: 10px 20px;
+    cursor: not-allowed;
+}
+
+.paginacion ul .disable:hover{
+    background: a8a8a8;
+}
+
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+    padding: 5%;
+}
+
+
+.map {
+    top: 50px;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
 }
