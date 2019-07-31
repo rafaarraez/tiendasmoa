@@ -1,6 +1,6 @@
 <?php require 'views/header.php'; ?>
 
-<img src="src/273458450_1.jpg" class="img-responsive " alt="" srcset="">
+<img src="./src/FACHADA-PRINCIPAL.jpg" class="img-responsive " alt="nosotros" srcset="">
 
 <section class="section-padding" style="background: #dededd;">
     <div class="col-12">
@@ -18,22 +18,22 @@
 
                     <div class="col-sm-12 col-md-6 col-lg-6 col-xs-6 nosotros ">
                         <h2>Mision</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dignissimos error quis quaerat nisi modi ipsam deleniti! Commodi, natus quod excepturi assumenda sequi blanditiis nisi aliquam, consectetur earum perspiciatis eligendi.</p>
+                        <p>Garantizar la calidad y variedad de productos a nuestros consumidores de forma responsable prestando un servicio agradable, siguiendo nuestro protocolo de atención al cliente,</p>
                     </div>
 
                     <div class="col-sm-12 col-md-6 col-lg-6 col-xs-6 nosotros ">
                         <h2>Vision</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, commodi et! Explicabo omnis, natus aspernatur neque odio laudantium tempora quia asperiores odit doloribus est autem, iste blanditiis, libero cupiditate quidem.</p>
+                        <p>Crecer como marca con el objetivo de ser la primera opción del consumidor para conservar de esta manera la fidelidad en nuestros clientes.</p>
                     </div>
 
-                    <div class="col-sm-12 col-md-6 col-lg-6 col-xs-6 nosotros ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xs-6 nosotros">
                         <h2>Valores</h2>
                         <ul>
-                            <li>lorem</li>
-                            <li>lorem</li>
-                            <li>lorem</li>
-                            <li>lorem</li>
-                            <li>lorem</li>
+                            <li>Cercanía</li>
+                            <li>Confianza</li>
+                            <li>Lealtad</li>
+                            <li>Profesionalismo</li>
+                            <li>Responsabilidad</li>
                         </ul>
                     </div>
 

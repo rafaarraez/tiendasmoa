@@ -1,3 +1,40 @@
+.carousel-item {
+    height: 85vh;
+}
+
+#parallax {
+	padding: 0;
+}
+#parallax .section-titlee {
+  height: 350px;
+	background: #444 url(../../src/pete-wright-n1RJ7pXgGTE-unsplash.jpg) center center no-repeat fixed;
+	background-size: cover;
+}
+#parallax .section-titlee h2 {
+  padding: 120px; 
+	color: #fff;
+}
+#parallax img {
+	width: 300px;
+	-webkit-box-shadow: 15px 0 #a7c44c;
+	        box-shadow: 15px 0 #a7c44c;
+}
+#parallax h3 {
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+#parallax .menu-section hr {
+	margin: 0 auto;
+}
+#parallax .menu-section {
+	margin: 0 20px 80px;
+}
+
+.section-titlee .overlay {
+  padding: 175px;
+	background: rgba(0, 0, 0, 0.2);
+}
+
 .nav-item {
     padding: 1rem;
 }
@@ -63,22 +100,6 @@ a:hover {
 	left: 0;
 	width: 100%;
     height: 70%;
-}
-
-@media(max-width: 991px){
-    .navbar-nav.navbar-center {
-        position: relative;
-        left: 0%;
-        transform: translatex(0%);
-    }
-    .padding-lados{
-        padding: 0;
-    }
-
-    .map iframe {
-        height: 100%;
-    }
-    
 }
 
 .card-producto{
@@ -224,60 +245,6 @@ a:hover {
     transform: translatey(-10rem) translateX(0rem);
 }
 
-@media(max-width:1300px){
-    .pro{
-        width: 32rem;
-        position: absolute;
-        transform: translatey(-11rem) translateX(0rem);
-    }
-}
-
-@media(max-width:1040px){
-    .pro{
-        width: 22rem;
-        /* float: right; */
-        position: absolute;
-        transform: translatey(-8rem) translateX(0rem);
-    }
-    .navbar-brand img{
-        position: absolute;
-        transform: translatey(-39%) translateX(-10%);
-        height: 180px;
-        width: 250px;    
-    }
-    
-}
-
-@media(max-width:800px){
-    .navbar-brand img{
-        position: absolute;
-        transform: translatey(-35%) translateX(-20%);
-        height: 80px;
-        width: 250px;
-    }
-}
-
-@media(max-width:730px){
-    .pro{
-        width: 15rem;
-        /* float: right; */
-        position: relative;
-        transform: translatey(0) translateX(0);
-
-    }
-    .section-title {
-        font-size: 36px;
-        line-height: 52px;
-        padding-bottom: 20px;
-        text-transform: uppercase;
-        padding: 30px 0;
-        position: relative;
-        color: #fff;
-        margin-bottom: 15px;
-        margin-left: 1rem;
-    }
-}
-
 .arriba{
     z-index: 3;
 }
@@ -402,15 +369,6 @@ label {
     font-weight: 700;
 }
 
-@media (max-width:767px){
-	#footer h5 {
-        padding-left: 0;
-        border-left: transparent;
-        padding-bottom: 0px;
-        margin-bottom: 10px;
-    }
-}
-
 section {
     padding: 60px 0;
 }
@@ -443,6 +401,10 @@ section {
 .nosotros h2{
     color: #CA5C2E;
     font-size: 2rem;
+}
+
+.nosotros ul{
+    margin-right: 2.5rem;
 }
 
 .nosotros li{
@@ -521,4 +483,128 @@ section {
     padding-bottom: 56.25%;
     padding-top: 25px;
     height: 0;
+}
+
+.local ul{
+    margin-left: 5rem;
+    font-weight: bold;
+    list-style: none;
+}
+
+.local ul li p{
+    margin: 0;
+}
+
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color: #fff;
+    position: fixed;
+    right: 2rem;
+    bottom: 4rem;
+    border-radius:10%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+    box-shadow: #000;
+  }
+
+
+/*MEDIA QUERYs*/
+
+@media(max-width:1300px){
+    .pro{
+        width: 32rem;
+        position: absolute;
+        transform: translatey(-11rem) translateX(0rem);
+    }
+}
+
+@media(max-width:1040px){
+    .pro{
+        width: 22rem;
+        /* float: right; */
+        position: absolute;
+        transform: translatey(-8rem) translateX(0rem);
+    }
+    .navbar-brand img{
+        position: absolute;
+        transform: translatey(-39%) translateX(-10%);
+        height: 180px;
+        width: 250px;    
+    }
+    
+}
+
+@media(max-width: 991px){
+    .navbar-nav.navbar-center {
+        position: relative;
+        left: 0%;
+        transform: translatex(0%);
+    }
+    .padding-lados{
+        padding: 0;
+    }
+
+    .map iframe {
+        height: 100%;
+    }
+    .local ul{
+        margin-left: 0rem;
+        font-weight: bold;
+        list-style: none;
+    }
+}
+
+@media(max-width:800px){
+    .navbar-brand img{
+        position: absolute;
+        transform: translatey(-35%) translateX(-20%);
+        height: 80px;
+        width: 250px;
+    }
+}
+
+@media (max-width:767px){
+	#footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:730px){
+    .pro{
+        width: 15rem;
+        /* float: right; */
+        position: relative;
+        transform: translatey(0) translateX(0);
+
+    }
+    .section-title {
+        font-size: 36px;
+        line-height: 52px;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        padding: 30px 0;
+        position: relative;
+        color: #fff;
+        margin-bottom: 15px;
+        margin-left: 1rem;
+    }
+}
+
+
+@media(max-width: 350px){    
+    #parallax .section-titlee {
+        height: 315px;
+        background: #444 url(../../src/pete-wright-n1RJ7pXgGTE-unsplash.jpg) center center no-repeat fixed;
+        background-size: cover;
+    }
+    .section-titlee .overlay {
+        padding: 155px;
+        background: rgba(0, 0, 0, 0.2);
+    }   
 }

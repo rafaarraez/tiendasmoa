@@ -1,11 +1,11 @@
 <?php
 
-define('RUTA', 'https://tiendasmoa.com');
+define('RUTA', 'http://localhost/tiendasmoa');
 
 $bd_config = array(
-    'basededatos' => 'c1590610_moa',
-    'usuario' => 'c1590610_moa',
-    'pass' => 'GE28lifinu'
+    'basededatos' => 'tiendasmoa',
+    'usuario' => 'root',
+    'pass' => ''
 );
 
 $products_config = array(
@@ -15,8 +15,8 @@ $products_config = array(
 );
 
 $blog_admin = array(
-    'usuario' => 'tiendasmoaadmin',
-    'password' => 'adminTiendasmoa.',
+    'usuario' => '',
+    'password' => '',
 );
 
 ?>
